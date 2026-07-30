@@ -1,5 +1,5 @@
 # Starting my journey of learning zk circuit auditing with these roadmap
-<img width="1917" height="1012" alt="image" src="https://github.com/user-attachments/assets/88426e23-7612-4901-b9d9-ff3c0653ae9d" />
+<img width="827" height="852" alt="Screenshot 2026-07-30 103541" src="https://github.com/user-attachments/assets/7a3b6bd9-8d32-4583-85e9-66a07adfe8db" />
 ## 🛠️ Tech Stack & Focus
 - **Tooling:** Circom, SnarkJS, Rust, Git, VS Code
 - **Domain:** ZK Security, Circuit Auditing, Finite Fields, Proving Systems
