@@ -6,7 +6,7 @@
 
 ## 📌 Progress Tracker
 - [x] Stage 0: Environment Setup & Hacker Toolchain
-- [ ] Stage 1: Mathematical Foundations & Cryptographic Primitives
+- [x] Stage 1: Mathematical Foundations & Cryptographic Primitives
 - [ ] Stage 2: ZK Proving Systems & Architecture
 - [ ] Stage 3: DSLs & Circuit Development (Circom Focus)
 - [ ] Stage 4: Advanced ZK Domain Primitives
