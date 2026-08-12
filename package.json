@@ -1,0 +1,27 @@
+{
+  "name": "zk-auditing-learnings",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anshul1205/zk-auditing-learnings.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Anshul1205/zk-auditing-learnings/issues"
+  },
+  "homepage": "https://github.com/Anshul1205/zk-auditing-learnings#readme",
+  "devDependencies": {
+    "chai": "^6.2.2",
+    "circom_tester": "^0.0.24",
+    "mocha": "^11.7.6",
+    "snarkjs": "^0.7.6"
+  }
+}
