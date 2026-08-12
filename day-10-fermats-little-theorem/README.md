@@ -24,7 +24,17 @@
 <img width="908" height="1280" alt="Image 03" src="https://github.com/user-attachments/assets/e57d4d4d-194b-42fe-b393-67f9e02c058a" />
 <img width="952" height="1280" alt="Image 04" src="https://github.com/user-attachments/assets/c6a27a41-5915-4fb1-8b56-d4fdc78978af" />
 
+---
 
+## 🛠️ Practical Implementation & Vulnerability Breakdown
+
+### 🐛 Vulnerability Analysis (`vulnerable.circom`)
+* **Root Cause:** The prover calculates the inverse off-circuit using `<--` assignment (`out <-- in^(p-2)`).
+* **Security Exploit:** Missing `===` constraint creates an unconstrained witness vulnerability. An attacker can tamper with `witness.json` and inject an arbitrary forged value for `out`. The verifier will still accept the proof!
+
+### 🛡️ Mitigation & Fix (`fixed.circom`)
+* **Constraint Enforcement:** Added explicit quadratic constraint `in * out === 1;`.
+* **Security Result:** Even if an attacker injects a false value in witness assignment, verification fails because `in * fake_out !== 1`.
 
 
 
