@@ -1,0 +1,5 @@
+{
+  "inputAmount": "50",
+  "expectedOutput": "99999",
+  "isZero": "1"
+}
