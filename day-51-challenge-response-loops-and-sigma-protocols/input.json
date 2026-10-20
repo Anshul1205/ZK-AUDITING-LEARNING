@@ -1,0 +1,7 @@
+{
+  "public_x": "10",
+  "challenge_e": "2",
+  "response_z": "10",
+  "commitment_a": "30",
+  "precommit_hash": "12345"
+}
